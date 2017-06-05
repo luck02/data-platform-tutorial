@@ -57,4 +57,4 @@ It may come in handy if you get stuck.
 
 ### Run `TwitterIngestFinal` from the command line
 
-mvn exec:java -Dexec.mainClass="com.svds.data_platform_tutorial.TwitterIngestFinal"
+mvn exec:java -Dexec.mainClass="com.svds.data_platform_tutorial.TwitterIngestTutorial"
