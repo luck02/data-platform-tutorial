@@ -91,7 +91,7 @@ We've created a script in `bin/hit_endpoint.sh` that can be used to call the `/g
 However, you first need to get the IDs of some valid tweets.
 You can do this by logging into the Cassandra container and starting a `cqlsh` session:
 
-    $ docker exec -it test_cassandra
+    $ docker exec -it test_cassandra /bin/bash
     # cqlsh
     > select id from demo.raw_tweets limit 100;
 
